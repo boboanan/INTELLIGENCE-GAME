@@ -13,6 +13,8 @@
 .evenflow { display: inline-block; }
 .evenflow:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
 
+
+
 .evenflow li {
   
   display:block;
@@ -23,20 +25,8 @@
   margin-left:10px;
   margin-right:10px;
   margin-bottom:20px; 
-  transition:all 0.25s ease;}
-
-.evenflow2 li {
-  display:block;
-  float:left;
-  width:8%;
-  max-width:400px;
-  line-height:0;
   
-  margin-left:10px;
-  margin-right:10px;
-  margin-bottom:20px; 
   transition:all 0.25s ease;}
-
 
 .evenflow li a {
   display:block;
